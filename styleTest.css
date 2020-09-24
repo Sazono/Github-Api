@@ -1,0 +1,160 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	width: 100%;
+	background: #ffec6b;
+	border-radius: 5px 5px 0 0;
+ }
+
+.title { text-align: center; }
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 800px;
+	margin: 70px auto;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	border-radius: 5px;
+}
+
+.app {
+	width: 100%;
+	background: #ffec6b;
+	border-radius: 5px 5px 0 0;
+ }
+
+ .table {
+	 padding: 20px;
+ }
+
+.search-line {
+	flex-direction: column;
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+	padding: 0 0 15px 0;
+}
+
+input:focus{
+outline: none;
+}
+
+.search-input {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	flex: 1;
+	height: 40px;
+	line-height: 20px;
+	padding: 8px 15px;
+	margin: 0 0 10px 0;
+}
+.users-wrapper {
+	padding: 0;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.users {
+	align-items: flex-start;
+	cursor: pointer;
+	/* display: flex; */
+	flex-wrap: wrap;
+}
+
+.user-info {
+	padding-left: 100px;
+	width: 50%;
+}
+
+.user-prev {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+	/* width: calc(100% / 5 - 20px); */
+}
+
+.user-prev-photo {
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.user-prev-name { font-weight: 600; }
+
+.user-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+.user-list-item {
+	margin: 5px;
+	list-style-type: none;
+	padding: 0;
+}
+
+.btn {
+	background-color: #ccc;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	margin: 50px auto 0;
+	width: 150px;
+}
+
+.cell {
+	padding: 20px;
+	width: 100%;
+}
+
+.table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#table td {
+	padding: 10px;
+	border: 1px solid #ccc;
+	color: black;
+}
+
+a:link {
+	color: black;
+}
+
+#pagination {
+	display: flex;
+	padding: 0;
+	list-style-type: none;
+}
+
+#pagination li {
+	margin-right: 5px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #ccc;
+}
+
+#pagination li:hover, #pagination li.active {
+	cursor: pointer;
+	color: #909090;
+	border: 1px solid #909090;
+}
+
+.user_contributors {
+	display: flex;
+	flex-wrap: wrap;
+}
